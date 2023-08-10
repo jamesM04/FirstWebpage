@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+    <title>James</title>  
+    <link rel="stylesheet" href="My First Webpage.css">  
+</head>
+
+<body>
+    <h1 style="color: blue;">Hello</h1>
+    <p>Hi</p>
+    <img src="AustralianApple.png" alt="A beautiful apple">
+    <h3 style="color: lime;">This is heading 3!</h3>
+    <h2>This is heading 2!</h2>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0"> 
+        <title>My tables</title>
+    
+        <style>
+            table {
+                border-collapse: collapse; 
+            }
+                tr, 
+                th, 
+                td {
+                    padding: 20px; 
+                    border: 4px solid black; 
+                    font-size: 40px;
+                    text-align: center; 
+                } 
+        </style>
+
+        <style>
+
+            body {
+                background-color: grey;
+
+            }
+
+            .formstyle {
+                background-color: deeppink;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                max-width: 70%;
+
+                margin: auto; 
+                padding: 2dvh;
+            }
+
+            #idstyle {
+                color: antiquewhite;
+            }
+
+            .submitbuttonstyle {
+                background: greenyellow;
+                color: white;
+                width: 100%;
+                height: 200px;
+                padding: 10px;
+                font-size: 50px; 
+                font-family: 'Times New Roman', Times, serif;
+            }
+        </style>
+
+        
+
+    </head>
+    <body>
+
+    <table>
+        <caption style="font-size: 30px; color: blue;">This is my table</caption>
+            <tr>
+                <th colspan="2">Heading 1</th>
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+    
+            <tr>
+                <td rowspan="2">Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+                <td>Data 4</td>
+            </tr>
+        </table>
+
+        <div style="height: 50px;"></div>
+
+        <form class="formstyle">
+            <label for="name">Name: </label>
+            <input type="text" name="name">
+            <br>
+            <label for="name">Email: </label>
+            <input type="text" name="name">
+            <br>
+    
+            <div>
+            <label for="name">Age: </label>
+            <input type="text" name="name">
+    
+            <br>
+            <label for ="name">Phone Number: </label>
+            <input type="number" name="name"> 
+            
+            <div>
+                <input class="submitbuttonstyle" type="submit" onclick="alert('Hello')" value="submit" />
+            </div>
+    
+    
+
+
+</body>
+
+</html>
